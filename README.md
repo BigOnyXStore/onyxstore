@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OnyX Store</title>
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="logo.png">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* TÍTULO */
+h1 {
+    margin-top: 80px;
+    font-size: 50px;
+    color: #ff00ff;
+}
+
+/* SUBTÍTULO */
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+/* BOTÃO PRINCIPAL */
+.button-main {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff00ff, #b300ff);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-main:hover {
+    transform: scale(1.1);
+}
+
+/* PLANOS */
+.plans {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* CARDS */
+.card {
+    background: rgba(0,0,0,0.85);
+    padding: 30px;
+    border-radius: 15px;
+    width: 250px;
+    border: 2px solid #ff00ff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 25px;
+    color: #ff00ff;
+    margin: 15px 0;
+}
+
+/* BOTÃO COMPRAR */
+.buy-btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff00ff, #b300ff);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    transform: scale(1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>OnyX Store</h1>
+<p class="subtitle">Seu Discord profissional pronto, configurado e entregue em até 24h.</p>
+
+<a href="https://discord.com/channels/1458931831096344618/1458934191323615458" target="_blank">
+    <button class="button-main">Abrir Ticket</button>
+</a>
+
+<div class="plans">
+
+    <div class="card">
+        <h3>Plano Basic</h3>
+        <p>Servidor configurado<br>10 cargos<br>15 canais</p>
+        <div class="price">R$ 5,90</div>
+        <a href="https://discord.com/channels/1458931831096344618/1458934191323615458" target="_blank">
+            <button class="buy-btn">Comprar</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>Plano Pro</h3>
+        <p>Servidor completo<br>20 cargos<br>Bots configurados</p>
+        <div class="price">R$ 10,90</div>
+        <a href="https://discord.com/channels/1458931831096344618/1458934191323615458" target="_blank">
+            <button class="buy-btn">Comprar</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>Plano Premium</h3>
+        <p>Discord Full Personalizado<br>Transferência de propriedade<br>Entrega rápida</p>
+        <div class="price">R$ 16,00</div>
+        <a href="https://discord.com/channels/1458931831096344618/1458934191323615458" target="_blank">
+            <button class="buy-btn">Comprar</button>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
